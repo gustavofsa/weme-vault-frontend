@@ -1,27 +1,54 @@
-# React + TypeScript + Vite
+# Weme Vault Frontend
+  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## :rocket: Tecnologias
 
-Currently, two official plugins are available:
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Typescript](https://www.typescriptlang.org/)
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Vite](https://vitejs.dev/)
 
-- Configure the top-level `parserOptions` property like this:
+- [Styled Components](https://styled-components.com/)
+  
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<br/>
+
+  
+
+## 🤔 Como rodar
+
+  
+
+### **Pré-requisitos**
+
+  
+
+- É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+
+- Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+  
+
+1. Faça um clone :
+ 
+```sh
+
+$  git  clone  https://github.com/gustavofsa/gameplay.git
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Executando a Aplicação:
+
+```sh
+
+# Instale as dependências
+$  npm  install
+  
+
+# Inicie a aplicação
+$  npm run dev
+
+```
